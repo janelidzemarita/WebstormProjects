@@ -1,0 +1,38 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #276565;
+    color: #030303;
+}
+.nav-links a {
+    color: #030303;
+}
+
+.name {
+    font-size: 32px;
+}
+/* NAVBAR MENU */
+.Menu {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
+/*.Menu li {*/
+/*    padding: 5px 14px;*/
+/*}*/
