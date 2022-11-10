@@ -1,0 +1,26 @@
+
+HTML file:
+
+I named the application --> Future Value App
+
+    In body tag I created h1 Future Value Application to show the name and inputs for the user to insert
+the investment amount, rate to consider and the years. for the input wir id="result" I made it read only so the user
+will not be able to insert anything. It is used to show the calculated result. I have to buttons: Calculate and Clear entries.
+
+
+
+JavaScript file:
+
+I this file I created few functions:
+1. To calculate the result: getMoney()
+2. To check if the user input is valid: is a number grater than zero :processEntries()
+    if the input is not valid, there is alert and a message is shown to the user.
+3. Clear entries: for the button Clear Entries
+
+CSS file:
+
+Here is the simple design for the website, like background color, font family, margin and etc.
+Nothing special.
+
+
+

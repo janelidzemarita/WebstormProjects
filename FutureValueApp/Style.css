@@ -1,0 +1,23 @@
+body{
+    font-family: Calibri, Calibri, sans-serif;
+    background-color: #331608;
+    margin: auto;
+    width: 800px;
+}
+h1 {
+    color: #ffffff;
+    margin-bottom: auto;
+}
+label{
+    float: left;
+    width: 11em;
+    text-align: right;
+    color: #ffffff;
+}
+input{
+    margin-left: 1em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    width: 11em;
+    color: #331608;
+}
