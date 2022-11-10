@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1> Your Invoice </h1>
+    <label for="price"></label> Amount Spent:
+    <input id="price">  <br>
+    <label for="discountType"></label>The type of customer:
+    <select name="discountType" id="discountType" data-placeholder="Select type">
+        <option></option>
+        <option value="retail">Retail</option>
+        <option value="wholesale">Wholesale</option>
+
+    </select><br>
+    <br>
+    <label for="total"></label> Total amount:
+    <input readonly id="total"><br>
+    <label>&nbsp;</label>
+    <button onclick="getPrice()">
+        Calculate
+    </button>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
+
+

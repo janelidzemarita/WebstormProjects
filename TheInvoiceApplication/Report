@@ -1,0 +1,25 @@
+HTML file:
+
+I named the application --> Invoice
+
+    In body tag I created h1 Your Invoice to show the name and inputs for the user to insert
+the money he/she spent. I made the input with id="total" readonly, so the user won't
+be able to insert anything. It is used to show the result.
+    I also have Select and Option tags for the user to choose 1 of the two options I created: retail or wholesale. It is used
+    to determine if the discount is 20% or 10%.
+
+
+
+JavaScript file:
+
+I this file I created a function: getPrice() to calculate the discount based on the options : retail or wholesale.
+
+
+
+CSS file:
+
+Here is the simple design for the website, like background color, font family, margin and etc.
+Nothing special.
+
+
+Please see the comments as well
