@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+<center>
+    <form>
+        <h1>Registration Form</h1>
+        <div>
+            <input id="names" placeholder="Name Surname">
+        </div>
+        <div class="radioInp">
+            <input type="radio" id="gen1" name="gender" value="M">
+            <label for="gen1">Male</label>
+            <input type="radio" id="gen2" name="gender" value="F">
+            <label for="gen2">Female</label>
+            <input type="radio" id="gen3" name="gender" value="N">
+            <label for="gen3">None</label>
+
+        </div>
+
+        <div class="citiesInp">
+            <h3>City you live in: </h3>
+            <select name="city" id="cities">
+                <option value="none">None</option>
+                <option value="Athens">Athens</option>
+                <option value="Thessaloniki">Thessaloniki</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Madrid">Madrid</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <button id="button" onclick="submiting()">Register</button>
+        <button id="buton" onclick="res()">Reset</button>
+        <p id="demo"></p>
+    </form>
+
+</center>
+
+<script src="Script.js"></script>
+
+</body>
+
+</html>

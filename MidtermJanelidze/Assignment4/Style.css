@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Cambria;
+    background: #65898a;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #0d4d4d;
+    color: #030303;
+}
+.nav-links a {
+    color: #030303;
+}
+
+.name {
+    font-size: 32px;
+}
+/* NAVBAR MENU */
+.Menu {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
