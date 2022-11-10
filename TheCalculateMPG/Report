@@ -1,0 +1,25 @@
+HTML file:
+
+I named the application --> MPG APP
+
+    In body tag I created h1 Calculate Miles per Gallon to show the name and inputs for the user to insert
+the miles he/she has driven and the size of the tank. I made the input with id="MPG" readonly, so the user won't
+be able to insert anything. It is used to show the result.
+
+
+
+JavaScript file:
+
+I this file I created few functions:
+1. To calculate the result: calculateMpg()
+2. To check if the user input is valid: is a number grater than zero :processEntries()
+    if the input is not valid, there is alert and a message is shown to the user.
+3. Clear entries: for the button Clear Entries, so the user can put new numbers.
+
+CSS file:
+
+Here is the simple design for the website, like background color, font family, margin and etc.
+Nothing special.
+
+
+Please see the comments as well
