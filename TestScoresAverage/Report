@@ -1,0 +1,25 @@
+HTML file:
+
+In body tag I created 3 inputs type="number"  for the user to insert numbers
+ with the label names grade 1, grade 2 and grade 3.
+ Next I created a button that calls a function in JavaScript to calculate the average of the 3 grades.
+ Last I created an readonly input to show the result.
+
+ See the comments as well.
+
+JavaScript file:
+
+There are only two functions. one $() to make calling document.getElementById(id) easier and shorter.
+Second function to calculate the average score.
+
+See the comments as well.
+
+CSS file:
+
+I created different types of input to design the differently.
+input[type = number] has wight 30% of the screen, color an no border.
+
+input[type = text] has wight 15% of the screen, color, font-size etc.
+
+same goes for button and body.
+

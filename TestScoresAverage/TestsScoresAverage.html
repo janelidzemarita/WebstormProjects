@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Average App</title>
+    <link rel="stylesheet" href="Styles.css">  <!-- Reads CSS file where the design is -->
+</head>
+<body>
+    <h1> Tests Scores Average
+        <menu type="context"></menu> </h1>
+    <label type="text"  for="grade1"> Grade 1: </label><input type="number" id="grade1"><br>
+    <label type="text"  for="grade2"> Grade 2: </label><input type="number" id="grade2"><br>
+    <label type="text"  for="grade3"> Grade 3: </label><input type="number" id="grade3"><br>
+    <br>
+    <button type="button" onclick="getAverage()"> Calculate </button> <!--button to calculate calls a func in JavaScript -->
+    <!-- to show the calculated result -->
+    <label type="text" for="avr"></label> Average: <input  type="text" id="avr" readonly>
+    <!-- Reads JavaScript file where the necessary function is -->
+    <script src="Average.js"></script>
+</body>
+</html>
